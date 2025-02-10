@@ -1,6 +1,6 @@
 <?php
 // Connect to database
-$mysqli = new mysqli("localhost","root","25374Az123!","db_swopnil");
+$mysqli = new mysqli("localhost","ID","PASS","DATABASE");
 if ($mysqli -> connect_errno) {
   echo "Failed to connect to MySQL: " . $mysqli -> connect_error;
   exit();
