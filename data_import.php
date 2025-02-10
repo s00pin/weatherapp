@@ -1,5 +1,5 @@
 <?php
-    $url = 'https://api.openweathermap.org/data/2.5/weather?q=Ilford&appid=27f3352033410ed9a692fe8ea4d60d0d&units=metric';
+    $url = 'https://api.openweathermap.org/data/2.5/weather?q=Ilford&appid=YOUR API KEY&units=metric';
     // Get data from openweathermap and store in JSON object
     $data = file_get_contents($url);
     $json = json_decode($data, true);
