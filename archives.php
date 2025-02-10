@@ -1,5 +1,5 @@
 <?php
-   $con=mysqli_connect("localhost","root","25374Az123!","db_swopnil");
+   $con=mysqli_connect("localhost","ID","PASSWORD","DATABASE");
    // Check connection
    if(mysqli_connect_errno()) {
       echo "Failed to connect to MySQL: " . mysqli_connect_error();
